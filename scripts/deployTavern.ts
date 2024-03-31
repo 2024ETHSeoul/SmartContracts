@@ -17,7 +17,7 @@ async function main() {
     await tavern.waitForDeployment();
 
     console.log(
-    `Token deployed to ${tavern.target}`
+    `Tavern deployed to ${tavern.target}`
     );
 }
 
